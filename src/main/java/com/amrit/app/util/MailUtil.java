@@ -1,4 +1,4 @@
-package com.amrit.app.Util;
+package com.amrit.app.util;
 
 import jakarta.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Autowired;

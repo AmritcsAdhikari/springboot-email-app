@@ -1,6 +1,6 @@
 package com.amrit.app.test;
 
-import com.amrit.app.Util.MailUtil;
+import com.amrit.app.util.MailUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
