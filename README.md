@@ -1,16 +1,19 @@
 # springboot-email-app
 Guide to Spring Email - JavaMailSender API
 
-Works for email with `attachment/no attachment`.
+---
+Works for email with `resource(files) URL/no URL`.
 
+For `files attachment` - use `MultiPartFile` concept
 
-## Quickstart - standalone
+---
+### Quickstart - Test application with CommandLineRunner
 
 - uncomment `MyRunner.java` 
 - update `spring.mail.password` in `mail.properties' file
 - run the application
 
-## Quickstart - REST API
+### Quickstart - REST API
 - comment `MyRunner.java`
 - update `spring.mail.password` in `mail.properties' file
 - run the application - list at `PORT 8080`
@@ -19,4 +22,5 @@ Works for email with `attachment/no attachment`.
 ![test-email-api.png](src%2Fmain%2Fresources%2Fstatic%2Ftest-email-api.png)
 
 
-`merosecret->uumuggcmcobxvpbp<-merosecret`
+`merosecretrev->pbpvxbocmcggumuu<-merosecretrev`
+
