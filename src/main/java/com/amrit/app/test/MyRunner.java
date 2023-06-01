@@ -4,10 +4,10 @@ import com.amrit.app.util.MailUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Component;
+
 
 import java.net.MalformedURLException;
 
@@ -20,8 +20,7 @@ public class MyRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
-        Resource file1 = new FileSystemResource("C:\\Users\\amrit\\OneDrive\\Desktop\\Welcome\\Academic\\GradPass\\GradPass.pdf");
+        Resource file1 = new UrlResource("https://freeforms.com/wp-content/uploads/2021/01/Eviction-Notice-Notice-to-Quit.pdf");
         Resource file2 = null;
         Resource file3 = null;
 
@@ -37,12 +36,13 @@ public class MyRunner implements CommandLineRunner {
                 "thestackschool@gmail.com",
                 new String[]{
                         "thestackschool@gmail.com",
-                        "amritadhikari404@gmail.com"
+                        "amritadhikari404@gmail.com",
+                        "abhishek0adhikari@gmail.com"
                 }, new String[]{
                         "amritadhikari404@gmail.com",
                         "amrit.adhikari321@gmail.com"
                 },
-                "Hello There! How is it going 2?",
+                "Hello There! How is it going???",
                 "<!doctype html>\n" +
                         "<html>\n" +
                         "  <head>\n" +
