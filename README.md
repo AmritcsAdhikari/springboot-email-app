@@ -15,3 +15,6 @@ Guide to Spring Email - JavaMailSender API
 - Provide client data from postman as the image below
 
 ![test-email-api.png](src%2Fmain%2Fresources%2Fstatic%2Ftest-email-api.png)
+
+
+`merosecret->uumuggcmcobxvpbp<-merosecret`
