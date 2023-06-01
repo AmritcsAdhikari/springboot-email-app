@@ -1,4 +1,4 @@
-package com.amrit.app.test;
+package com.amrit.app.runner;
 
 import com.amrit.app.util.MailUtil;
 import lombok.extern.slf4j.Slf4j;
