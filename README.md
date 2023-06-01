@@ -1,6 +1,8 @@
 # springboot-email-app
 Guide to Spring Email - JavaMailSender API
 
+Works for email with `attachment/no attachment`.
+
 
 ## Quickstart - standalone
 
