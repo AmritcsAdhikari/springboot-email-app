@@ -27,7 +27,6 @@ public class EmailController {
             @RequestParam("files") Resource[] files
 
     ){
-        System.out.println(files.toString());
         EmailResponse emailResponse = emailService.sendEmail(
                 to,
                 cc,
